@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 10px;
+        }
+
+        .container {
+            width: 300px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+        }
+
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .color-label {
+            display: block;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        .color-selector {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .save-button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .save-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="https://colorhunt.co" target="_blank" class="color-reference">颜色参考：https://colorhunt.co</a>
+
+    <h1 class="title">样式设置</h1>
+
+    <label class="color-label">默认背景颜色:</label>
+    <input id="background-color-selector" class="color-selector" type="color"/>
+
+    <label class="color-label">默认字体颜色:</label>
+    <input id="font-color-selector" class="color-selector" type="color"/>
+
+    <button id="save-button" class="save-button">保存</button>
+</div>
+
+<script src="jscolor.min.js"></script>
+<script src="panel.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+/* styles.css */
+::selection {
+  color: white; !important; /* 将选中文本的颜色设置为红色 */
+  background-color: black !important; /* 将选中文本的背景颜色设置为黄色 */
+}
