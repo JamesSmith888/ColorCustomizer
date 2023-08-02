@@ -8,7 +8,11 @@ document.addEventListener('DOMContentLoaded', function () {
             backgroundColor: backgroundColor,
             fontColor: fontColor
         }, function () {
-            alert('颜色设置已保存');
+            // saveButton value update to 已保存
+            saveButton.innerText = '已保存';
+            saveButton.style.color = fontColor;
+            saveButton.style.backgroundColor = backgroundColor;
+
             chrome.tabs.query({active: true, currentWindow: true}, function (tabs) {
                 var tabId = tabs[0].id;
                 chrome.tabs.sendMessage(tabId, {
