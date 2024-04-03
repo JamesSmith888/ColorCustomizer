@@ -1,6 +1,6 @@
 {
   "name": "ColorCustomizer",
-  "version": "1.0",
+  "version": "1.0.1",
   "manifest_version": 3,
   "description": "Customize the background and font color of the selected text content by the mouse. Used to protect the eyes during reading.",
   "permissions": [
