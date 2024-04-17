@@ -4,7 +4,9 @@
 
 
 ## 安装和使用
-
+### Google Chrome 商店
+https://chromewebstore.google.com/detail/colorcustomizer/bjkkadbhniehklgngikfbelkopihbmom?hl=en-US&utm_source=ext_sidebar
+### 本地安装
 1. 下载或克隆这个扩展到本地
 2. 在 Chrome 浏览器中打开扩展程序页面 `chrome://extensions/`
 3. 启用开发者模式
